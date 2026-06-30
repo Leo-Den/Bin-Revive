@@ -2,4 +2,24 @@
     max-height:300px;
     object-fit:cover;
 }
+
+.sticky-cta{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:#2E8B57;
+    text-align:center;
+    padding:15px;
+    z-index:999;
+}
+
+.sticky-cta a{
+    color:white;
+    font-size:1.2rem;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+}
+
 body{font-family:Arial,sans-serif;margin:0}header{background:#111;color:#fff;padding:20px;display:flex;justify-content:space-between} .hero{padding:80px;background:#f5f5f5}.btn{background:#8cff00;padding:12px 20px;color:#000;text-decoration:none;font-weight:bold;border-radius:6px}section{padding:40px}input,select,button{display:block;width:100%;max-width:400px;margin:10px 0;padding:12px}button{background:#8cff00;border:0}footer{background:#111;color:#fff;padding:20px;text-align:center}
